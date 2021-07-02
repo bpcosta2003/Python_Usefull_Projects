@@ -1,5 +1,5 @@
 from operator import itemgetter
-'''
+
 # / 1
 
 soma_par = []
@@ -46,7 +46,7 @@ ranking = sorted(maior_media.items(), key=itemgetter(1), reverse=True)
 
 
 print(f'\nA {ranking[0][0]} teve a média mais alta com {ranking[0][1]}')
-'''
+
 # / 2
 
 minutos = int(input("Informe os minutos atuais : "))
